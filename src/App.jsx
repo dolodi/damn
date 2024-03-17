@@ -11,19 +11,10 @@ function App() {
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      
+      <h1>Want to be my valentine?????</h1>
       <div className="card">
-        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full" onClick={() => setCount((count) => count + 1)} >
-          count is {count}
-        </button>
+        
         <div class="w-100 h-100 flex justify-center items-center">
           <Lottie animationData={animationData} />
         </div>
